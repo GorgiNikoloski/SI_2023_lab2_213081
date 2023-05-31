@@ -76,4 +76,24 @@ public class SILab2 {
         return false;
     }
 
+    public static void main(String[] args) {
+
+
+        List<User> allUsers = new ArrayList<>();
+        User postoecki = new User("JohnDoe", "password123", "johndoe@example.com");
+
+
+        User user1 = new User("username", null, "johndoe@example.com");
+        User user2 = new User("JohnDoe", "password123", "nevaliden");
+        User user3 = new User("JohnDoe", "pas jj", "johndoe@example.com");
+        User user4 = new User(null, "password123", "johndoe@example.com");
+        User user5 = new User("JohnDoe", "password123#", "johndoe@example.com");
+
+
+
+
+        boolean result = SILab2.function(user5, allUsers);
+        System.out.println("Result: " + result);
+    }
+
 }
