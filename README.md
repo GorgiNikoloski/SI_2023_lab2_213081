@@ -3,7 +3,7 @@
 ## Ѓорѓи Николоски, бр. на индекс 213081
 
 ### 2). Control Flow Graph
-![CFG slika](https://github.com/GorgiNikoloski/SI_2023_lab2_213081/assets/127355009/fa41a125-0ec6-4d56-aff1-0649a814fccf)
+![CFG picture](https://github.com/GorgiNikoloski/SI_2023_lab2_213081/assets/127355009/960da7b1-d061-4865-817b-a498f0695821)
 ### 3). Цикломатска комплексност
 Цикломатската комплексност на кодот е 11. 
 Ја добив со помош на формулата P + 1, каде P е
